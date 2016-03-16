@@ -38,6 +38,11 @@ void reverse2(I f, I l)
 template <typename I> // I models RandomAccessIterator
 void subrange_sort(I f, I l, I sf, I sl)
 {
+  if (f == l || sf == sl)
+    return;
+
+  //std::partial_sort(f, sf, l);
+  std::partial_sort(f, sl, l);
 }
 
 template <typename I>
