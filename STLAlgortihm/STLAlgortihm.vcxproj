@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="algorithm.hpp" />
     <ClInclude Include="bind.hpp" />
+    <ClInclude Include="lambda.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
